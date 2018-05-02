@@ -2,7 +2,7 @@
 ### A Instantiable Server Framework in Kotlin
 
 ## Introduction
-A Tachyon is an instantiable  server. 
+A Tachyon is an instantiable monad server. 
 This library provides three types of Tachyons.
 
 | Tachyon    	| Nature       	|
