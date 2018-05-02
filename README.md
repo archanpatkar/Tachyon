@@ -1,8 +1,8 @@
 # Tachyon
-### A Instanciable Server Framework in Kotlin
+### A Instantiable Server Framework in Kotlin
 
 ## Introduction
-A Tachyon is an instaciable unit server there are three types of Tachyons
+A Tachyon is an instantiable unit server there are three types of Tachyons
 
 | Tachyon    	| Nature       	|
 |------------	|--------------	|
