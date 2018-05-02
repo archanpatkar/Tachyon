@@ -1,2 +1,2 @@
 # Tachyon
-### A Concurrent Server Framework in Kotlin
+### A Instanciable Server Framework in Kotlin
