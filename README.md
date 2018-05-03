@@ -51,8 +51,8 @@ import com.archanpatkar.tachyon.SerialTachyon;
 
 fun main(args: Array<String>)
 {
-  val st1 = ConcurrentTachyon(8081);
-  st1 start { soc,nis,nos ->
+  val ct1 = ConcurrentTachyon(8081);
+  ct1 start { soc,nis,nos ->
     nos.println("hello from the other side!")
   }
 }
