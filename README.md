@@ -1,8 +1,8 @@
 # <img src="./TACHYON.png">
-### A Instantiable Server Framework in Kotlin
+### An Instantiable Server Framework in Kotlin
 
 ## Introduction
-An Tachyon is an instantiable unit server. 
+A Tachyon is an instantiable unit server. 
 This library provides three types of Tachyons.
 
 | Tachyon    	| Nature       	|
@@ -17,7 +17,7 @@ This library provides three types of Tachyons.
 ```kotlin
 import java.net.*;
 import java.io.*;
-import com.archanpatkar.tachyon.SerialTachyon;
+import com.archanpatkar.tachyon.SingleTachyon;
 
 fun main(args: Array<String>)
 {
@@ -36,8 +36,8 @@ import com.archanpatkar.tachyon.SerialTachyon;
 
 fun main(args: Array<String>)
 {
-  val st1 = SerialTachyon(8081,10);
-  st1 start { soc,nis,nos ->
+  val set1 = SerialTachyon(8081,10);
+  set1 start { soc,nis,nos ->
     nos.println("hello from the other side!")
   }
 }
@@ -47,12 +47,12 @@ fun main(args: Array<String>)
 ```kotlin
 import java.net.*;
 import java.io.*;
-import com.archanpatkar.tachyon.SerialTachyon;
+import com.archanpatkar.tachyon.ConcurrentTachyon;
 
 fun main(args: Array<String>)
 {
-  val st1 = ConcurrentTachyon(8081);
-  st1 start { soc,nis,nos ->
+  val ct1 = ConcurrentTachyon(8081);
+  ct1 start { soc,nis,nos ->
     nos.println("hello from the other side!")
   }
 }
