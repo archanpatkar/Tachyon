@@ -21,7 +21,7 @@ import com.archanpatkar.tachyon.SingleTachyon;
 
 fun main(args: Array<String>)
 {
-  val st1 = SingalTachyon(8081);
+  val st1 = SingalTachyon(8081); // Port Number
   st1 start { soc,nis,nos ->
     nos.println("hello from the other side!")
   }
@@ -36,7 +36,7 @@ import com.archanpatkar.tachyon.SerialTachyon;
 
 fun main(args: Array<String>)
 {
-  val set1 = SerialTachyon(8081,10);
+  val set1 = SerialTachyon(8081,10); // Port Number , Number of Connections
   set1 start { soc,nis,nos ->
     nos.println("hello from the other side!")
   }
@@ -51,7 +51,7 @@ import com.archanpatkar.tachyon.ConcurrentTachyon;
 
 fun main(args: Array<String>)
 {
-  val ct1 = ConcurrentTachyon(8081);
+  val ct1 = ConcurrentTachyon(8081); // Port Number
   ct1 start { soc,nis,nos ->
     nos.println("hello from the other side!")
   }
