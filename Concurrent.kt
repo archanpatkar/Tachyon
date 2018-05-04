@@ -4,7 +4,7 @@ import java.net.*;
 import java.io.*;
 import kotlin.concurrent.thread;
 
-class ConcurrentTachyon: Tachyon
+public class ConcurrentTachyon: Tachyon
 {
   private var ss:ServerSocket;
   private var port:Int;
