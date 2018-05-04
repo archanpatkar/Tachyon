@@ -3,7 +3,7 @@ package com.archanpatkar.tachyon;
 import java.net.*;
 import java.io.*;
 
-class SingleTachyon: Tachyon
+public class SingleTachyon: Tachyon
 {
   private var ss:ServerSocket;
   private var port:Int;
