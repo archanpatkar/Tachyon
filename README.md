@@ -1,8 +1,8 @@
 # <img src="./TACHYON.png">
-### A Instantiable Server Framework in Kotlin
+### An Instantiable Server Framework in Kotlin
 
 ## Introduction
-An Tachyon is an instantiable unit server. 
+A Tachyon is an instantiable unit server. 
 This library provides three types of Tachyons.
 
 | Tachyon    	| Nature       	|
