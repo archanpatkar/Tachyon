@@ -3,7 +3,7 @@
 
 ## Introduction
 A Tachyon is an instantiable unit server. 
-This library provides three types of Tachyons.
+This library provides three types of Tachyons -
 
 | Tachyon    	| Nature       	|
 |------------	|--------------	|
