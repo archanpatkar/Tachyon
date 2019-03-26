@@ -8,9 +8,9 @@ This library provides three types of Tachyons -
 
 | Tachyon    	| Nature       	|
 |------------	|--------------	|
-| Single     	| Blocking     	|
-| Serial     	| Blocking     	|
-| Concurrent 	| Non Blocking 	|
+| Single     	| Single      	|
+| Serial     	| Blocking ( will Block Clients )     	|
+| Concurrent 	| Non Blocking ( will accept arbitary clients without blocking them )	|
 
 ## Example Usage
 
