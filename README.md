@@ -4,7 +4,6 @@
 ## Introduction
 A Tachyon is an instantiable unit server. 
 This library provides three types of Tachyons -
-> Every Tachyon has one thread which handles connection requests but the nature of that thread changes from Tachyon to Tachyon
 
 | Tachyon    	| Nature       	|
 |------------	|--------------	|
